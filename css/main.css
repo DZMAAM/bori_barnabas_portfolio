@@ -1,0 +1,152 @@
+body{
+	font-family: 'Roboto' sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+	background-color: saddlebrown;
+	display:  block;
+	grid-template-areas: "fejlec" "törzs" "lablec";
+	grid-auto-rows: max-content ifr max-content;
+	background-image: url(../kepek/leiras.jpg);
+
+	min-height: 100vh;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.fejlec_kep{
+	display:inline;
+	height: 20rem;
+	padding: 6rem;
+	
+}
+.fejlec_kep2{
+	display: inline;
+	height: 20rem;
+	padding: 6rem;
+}
+
+.fejlec_kep:hover{
+	cursor: pointer;
+	height: 21rem;
+	padding-top:  5rem;
+	padding-bottom: 5rem;
+	padding-right: 6 rem;
+	padding-left: 5rem;
+}
+
+.fejlec_kep2:hover{
+	cursor: pointer;
+	height: 21rem;
+	padding-top:  5rem;
+	padding-bottom: 5rem;
+	padding-right: 6 rem;
+	padding-left: 5rem;
+}
+.nyulik{
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.fbal{
+	color: black;
+	display: inline-block;
+	font-size: 32px;
+	margin: 1rem;
+	padding: 6rem;
+	border-radius: 3rem;
+	background-color: rgba(211, 137, 24, 1.0);
+	transition: .3s;
+}
+
+.fbal:hover{
+
+	cursor: pointer ;
+	background-color: rgba(250, 237, 192, 1.0);
+
+}
+
+.fjobb{
+	display: inline-block;
+	border-width: 20rem;
+	background-color: black;
+	font-size: 32px;
+	border-radius: 1rem;
+	padding: 6rem;
+	transition: .1s;
+}
+
+.fjobb:hover{
+	cursor: pointer;
+	background-color: rgba(100, 100, 100, 1.0);
+}
+
+
+
+.lista{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-right: 1rem;
+}
+
+.sorba{
+	display:inline;
+}
+
+
+
+
+.lablec_kep{
+
+	width: 100%;
+	padding: 0px;
+	margin:  0px;
+	height: 20rem;
+}
+
+
+.barna{
+	background-color: rgba(211, 137, 24, 1.0);
+	padding: 1rem;
+	border-radius: 2rem;
+	text-align: left;
+
+}
+
+main{
+	padding-left: 3rem;
+}
+.itten{
+	text-decoration: underline;
+}
+
+.kepek{
+	display: inline-block;
+	height: 30rem;
+	border-radius: 2rem;
+}
+
+.oszlopok{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(22rem, 1.7fr)) ;
+}
+.középre{
+	text-align: center;
+	height: 30rem;
+	border-radius: 2rem;
+}
+.balmargó{
+	padding-left: 1rem;
+}
+
+
+footer{
+	background-color: white;
+	background-image: url(../kepek/footer.jpg);
+	text-align: center;
+	color: black;
+}
+
